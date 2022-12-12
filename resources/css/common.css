@@ -1,0 +1,271 @@
+/** 画面全体の横幅 **/
+/* section */
+.allwide {
+  margin: 50px calc(50% - 50vw) 0;
+  width: calc(100vw - 9px);
+}
+/* map */
+#overview iframe {
+  height: 420px;
+  margin: 0 calc(50% - 50vw);
+  width: calc(100vw - 9px);
+}
+@media only screen and (max-width: 768px) {
+  .allwide {
+    width: 100vw;
+  }
+  #overview iframe {
+    width: 100vw;
+  }
+}
+/** /画面全体の横幅 **/
+
+.fs-06 {
+  font-size: 0.6rem;
+}
+.fs-07 {
+  font-size: 0.7rem;
+}
+.fs-08 {
+  font-size: 0.8rem;
+}
+.fs-09 {
+  font-size: 0.9rem;
+}
+.disp-only-sp {
+  display: none;
+}
+@media only screen and (max-width: 768px) {
+  .disp-only-sp {
+    display: block;
+  }
+}
+
+.container {
+  max-width: 100%;
+  padding: 0;
+}
+.wid-adj {
+  margin: 0 auto;
+  width: 75%;
+}
+.max-w-500 {
+  max-width: 500px;
+}
+
+h3.subheading {
+  border-top: 6px double #222;
+  border-bottom: 6px double #222;
+  display: block;
+  padding: 10px 0;
+  margin: 0 auto 40px;
+  text-align: center;
+  width: 60%;
+}
+h3.subheading p {
+  margin-bottom: 0;
+}
+h3.subheading p:last-child {
+  font-size: 0.8em;
+}
+h4 {
+  margin: 40px 0 20px;
+  text-align: center;
+}
+
+#workingline .flbx-item .arrow {
+  width: 52px;
+  margin: 20px auto;
+}
+
+/** ヘッダー **/
+header nav h1 {
+  position: relative;
+  top: 3px;
+  max-resolution: bottom 0;
+  padding: 0 20px;
+}
+
+/** トップ画像 **/
+.img-top {
+  background-size: cover;
+  background-position: center;
+  background-position-y: 0%;
+}
+.img-top .pageTop {
+  display: table;
+  height: 100%;
+}
+.img-top .pageTop > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.img-top .pageTop h1 {
+  font-size: 32px;
+  text-shadow: 1px 2px 3px #222;
+}
+.img-top .pageTop h2 {
+  font-size: 14px;
+  text-shadow: 1px 2px 3px #222;
+  line-height: 1.6em;
+  letter-spacing: 0.14em;
+}
+
+/** 製品紹介・設備概要・作業工程 **/
+#product p,
+#equipment p,
+#workingline p {
+  text-align: center;
+}
+
+#product .flbx-item,
+#equipment .flbx-item,
+#workingline .flbx-item {
+  margin-bottom: 30px;
+}
+
+#product .flbx-item *,
+#equipment .flbx-item *,
+#workingline .flbx-item * {
+  display: block;
+  margin: 0 auto;
+}
+
+#product p.caption,
+#equipment p.caption,
+#workingline p.caption {
+  margin-top: 10px !important;
+  font-size: 13px;
+}
+
+/** 会社概要 **/
+#overview .overview-img {
+  text-align: center;
+  margin: 10px auto 30px;
+  min-width: 560px;
+  width: 40%;
+}
+
+dl.dlToTable {
+  align-items: stretch;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-bottom: none;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 0;
+}
+dl.dl-flw-70 {
+  width: 70%;
+}
+dl.dlToTable dt {
+  padding: 5px;
+  width: 170px;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+dl.dlToTable dd {
+  background: #fff;
+  padding: 5px;
+  width: calc(100% - 170px);
+  border-bottom: 1px solid #ccc;
+  margin: 0;
+}
+dl.dlToTable p {
+  margin-bottom: 0;
+}
+
+/** お問い合わせ **/
+.summary {
+  margin: 0 auto;
+  max-width: 400px;
+}
+#inquiry .tel {
+  font-size: 30px;
+  margin: 50px auto;
+  text-align: center;
+  width: 400px;
+}
+
+#inquiry .caption {
+  font-size: 18px;
+}
+#inquiry .tel .number {
+  font-size: 30px;
+  margin: 10px auto;
+}
+#inquiry .tel .memo {
+  font-size: 13px;
+}
+.address {
+  font-size: 0.8rem;
+}
+
+/** フッター **/
+footer {
+  text-align: center;
+  padding: 30px 0;
+}
+footer a {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav h1 {
+    padding: 0;
+  }
+
+  .img-top .pageTop h2 {
+    font-size: 13px;
+  }
+  h3.subheading {
+    width: 80%;
+  }
+  h4 {
+    margin-top: 40px;
+  }
+  section {
+    width: 98%;
+  }
+
+  .wid-adj {
+    margin: 0 auto;
+    width: 95%;
+  }
+
+  .flbx-item img {
+    width: 100%;
+  }
+
+  #overview .overview-img {
+    min-width: 0;
+    width: 100%;
+  }
+  #overview .overview-img img {
+    width: 100%;
+  }
+
+  dl.dl-flw-70 {
+    width: 98%;
+  }
+  dl.dlToTable dt {
+    font-size: 15px;
+    width: 140px;
+  }
+  dl.dlToTable dd {
+    font-size: 14px;
+    width: calc(100% - 140px);
+  }
+
+  #inquiry .summary {
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.8em;
+  }
+  .map img {
+    width: 90%;
+  }
+}

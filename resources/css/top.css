@@ -1,0 +1,61 @@
+.bg-img-top {
+  background-image: url(../images/top/top.jpg);
+}
+
+.bg-color-section {
+  background-color: #bbb;
+}
+.bg-color-footer {
+  background-color: #111;
+}
+
+.subheading {
+  border-color: #93e1e9 !important;
+}
+
+.top-summary {
+  max-width: 600px;
+  width: 90%;
+  line-height: 1.6em;
+}
+
+#grouplink .group-list a {
+  color: #000;
+  text-decoration: none;
+}
+#grouplink .group-list .row > div {
+  min-width: 240px;
+}
+
+.row {
+  justify-content: center;
+}
+.col-lg-4 {
+  width: 25%;
+}
+
+@media only screen and (max-width: 768px) {
+  .col-lg-4 {
+    width: 80%;
+  }
+}
+
+/* 画像エフェクト */
+/**
+https://cotodama.co/css_mouseover_img/#i
+**/
+.img_wrap {
+  overflow: hidden;
+  background: #000;
+}
+.img_wrap img {
+  width: 100%;
+  cursor: pointer;
+  opacity: 0.6;
+  transition-duration: 0.3s;
+}
+.img_wrap:hover img {
+  opacity: 1;
+  transition-duration: 0.3s;
+}
+/* / 画像エフェクト */

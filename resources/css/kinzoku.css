@@ -1,0 +1,20 @@
+.bg-img-top {
+  background-image: url(../images/kinzoku/top.jpg);
+}
+
+.bg-color-section {
+  background-color: #f4cf90;
+}
+.bg-color-footer {
+  background-color: #c17a02;
+}
+
+#workingline dd,
+#planting dd {
+  font-size: 0.9rem;
+  padding: 7px;
+}
+
+.centering dt {
+  text-align: center;
+}

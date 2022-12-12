@@ -1,0 +1,21 @@
+.bg-img-top {
+  background-image: url(../images/kouki/top.jpg);
+}
+
+.bg-color-section {
+  background-color: #8dceff;
+}
+.bg-color-footer {
+  background-color: #004986;
+}
+
+#item-list {
+  text-align: center;
+  line-height: 1.6em;
+}
+#item-list li {
+  list-style-type: none;
+}
+#item-list li::before {
+  content: "〇 ";
+}
