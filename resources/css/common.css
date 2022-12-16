@@ -1,3 +1,6 @@
+* {
+  line-height: 1.8em;
+}
 /** 画面全体の横幅 **/
 /* section */
 .allwide {
@@ -10,6 +13,9 @@
   margin: 0 calc(50% - 50vw);
   width: calc(100vw - 9px);
 }
+.disp-only-sp {
+  display: none;
+}
 @media only screen and (max-width: 768px) {
   .allwide {
     width: 100vw;
@@ -17,29 +23,11 @@
   #overview iframe {
     width: 100vw;
   }
-}
-/** /画面全体の横幅 **/
-
-.fs-06 {
-  font-size: 0.6rem;
-}
-.fs-07 {
-  font-size: 0.7rem;
-}
-.fs-08 {
-  font-size: 0.8rem;
-}
-.fs-09 {
-  font-size: 0.9rem;
-}
-.disp-only-sp {
-  display: none;
-}
-@media only screen and (max-width: 768px) {
   .disp-only-sp {
     display: block;
   }
 }
+/** /画面全体の横幅 **/
 
 .container {
   max-width: 100%;
@@ -49,24 +37,36 @@
   margin: 0 auto;
   width: 75%;
 }
-.max-w-500 {
-  max-width: 500px;
-}
 
 h3.subheading {
-  border-top: 6px double #222;
-  border-bottom: 6px double #222;
+  border-top: 6px double #666;
+  border-bottom: 6px double #666;
   display: block;
   padding: 10px 0;
-  margin: 0 auto 40px;
+  margin: 50px auto 40px;
   text-align: center;
-  width: 60%;
+  width: 22em;
 }
 h3.subheading p {
   margin-bottom: 0;
+  line-height: 1em;
 }
 h3.subheading p:last-child {
-  font-size: 0.8em;
+  color: #555;
+  font-size: 0.6em;
+  font-weight: 600;
+  margin-top: 8px;
+  letter-spacing: 0.07em;
+}
+@media only screen and (max-width: 992px) {
+  h3.subheading {
+    width: 20em;
+  }
+}
+@media only screen and (max-width: 768px) {
+  h3.subheading {
+    width: 16em;
+  }
 }
 h4 {
   margin: 40px 0 20px;
@@ -117,11 +117,23 @@ header nav h1 {
 #workingline p {
   text-align: center;
 }
+#product > p,
+#equipment > p {
+  margin: 0 20px 50px;
+}
 
 #product .flbx-item,
 #equipment .flbx-item,
 #workingline .flbx-item {
-  margin-bottom: 30px;
+  margin-bottom: 3rem;
+  min-width: 150px;
+}
+#product .flbx-item,
+#workingline .flbx-item {
+  max-width: 340px;
+}
+#equipment .flbx-item {
+  max-width: 380px;
 }
 
 #product .flbx-item *,
@@ -129,6 +141,10 @@ header nav h1 {
 #workingline .flbx-item * {
   display: block;
   margin: 0 auto;
+}
+#product .flbx-item img,
+#equipment .flbx-item img {
+  width: 100%;
 }
 
 #product p.caption,
@@ -150,6 +166,7 @@ dl.dlToTable {
   align-items: stretch;
   background-color: #fff;
   border: 1px solid #ccc;
+  border-top: none;
   border-bottom: none;
   display: -webkit-flex;
   display: -moz-flex;
@@ -181,27 +198,40 @@ dl.dlToTable p {
 /** お問い合わせ **/
 .summary {
   margin: 0 auto;
-  max-width: 400px;
-}
-#inquiry .tel {
-  font-size: 30px;
-  margin: 50px auto;
+  max-width: 500px;
   text-align: center;
-  width: 400px;
 }
 
 #inquiry .caption {
   font-size: 18px;
 }
-#inquiry .tel .number {
+#inquiry .tel,
+#inquiry .fax {
   font-size: 30px;
+  margin: 50px auto;
+  text-align: center;
+  min-width: 360px;
+  max-width: 420px;
+  width: 90%;
+}
+#inquiry .tel .number,
+#inquiry .fax .number {
   margin: 10px auto;
 }
-#inquiry .tel .memo {
-  font-size: 13px;
+#inquiry .number span:first-of-type {
+  font-size: 24px;
+  margin-right: 20px;
+}
+#inquiry .number span:last-of-type {
+  font-size: 30px;
+}
+#inquiry .tel .memo,
+#inquiry .fax .memo {
+  font-size: 1rem;
 }
 .address {
-  font-size: 0.8rem;
+  font-size: 1.2rem;
+  width: 280px;
 }
 
 /** フッター **/
@@ -213,16 +243,14 @@ footer a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
+  /* または 992px */
   header nav h1 {
     padding: 0;
   }
 
   .img-top .pageTop h2 {
     font-size: 13px;
-  }
-  h3.subheading {
-    width: 80%;
   }
   h4 {
     margin-top: 40px;
@@ -234,10 +262,6 @@ footer a {
   .wid-adj {
     margin: 0 auto;
     width: 95%;
-  }
-
-  .flbx-item img {
-    width: 100%;
   }
 
   #overview .overview-img {
@@ -265,6 +289,12 @@ footer a {
     text-align: center;
     line-height: 1.8em;
   }
+  .address {
+    font-size: 1rem;
+    width: 230px;
+  }
+}
+@media only screen and (max-width: 576px) {
   .map img {
     width: 90%;
   }

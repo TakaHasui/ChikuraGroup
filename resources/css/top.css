@@ -3,20 +3,24 @@
 }
 
 .bg-color-section {
-  background-color: #bbb;
+  background-color: #eee;
 }
 .bg-color-footer {
   background-color: #111;
 }
 
 .subheading {
-  border-color: #93e1e9 !important;
+  border-color: #666 !important;
 }
 
 .top-summary {
   max-width: 600px;
   width: 90%;
   line-height: 1.6em;
+}
+
+#philosophy h2 span {
+  border-bottom: 5px solid #aaa;
 }
 
 #grouplink .group-list a {
@@ -41,21 +45,17 @@
 }
 
 /* 画像エフェクト */
-/**
-https://cotodama.co/css_mouseover_img/#i
-**/
 .img_wrap {
+  margin: 0 auto;
   overflow: hidden;
-  background: #000;
 }
 .img_wrap img {
   width: 100%;
   cursor: pointer;
-  opacity: 0.6;
-  transition-duration: 0.3s;
+  transition-duration: 0.5s;
 }
-.img_wrap:hover img {
-  opacity: 1;
-  transition-duration: 0.3s;
+.img_wrap img:hover {
+  transform: scale(1.2);
+  transition-duration: 0.5s;
 }
 /* / 画像エフェクト */

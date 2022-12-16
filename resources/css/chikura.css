@@ -3,8 +3,48 @@
 }
 
 .bg-color-section {
-  background-color: #b5a080;
+  background-color: #f3ebdf;
 }
 .bg-color-footer {
   background-color: #4e4436;
+}
+
+h4 span {
+  border-bottom: 3px solid #d97d00;
+}
+
+dl.dlToTable {
+  background-color: #fff;
+  border-bottom: none;
+}
+dl.dlToTable dt {
+  color: #000;
+  background-color: #f9dcb5;
+  /* background-color: #dedede; */
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+dl.dlToTable dt:first-of-type,
+dl.dlToTable dd:first-of-type {
+  border-top: 1px solid #ccc;
+}
+dl.dlToTable dt:last-of-type {
+  border-bottom: 1px solid #ccc;
+}
+dl.dlToTable dd {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+#inquiry .tel,
+#inquiry .fax {
+  background-color: #fff;
+}
+
+#inquiry .tel .caption span,
+#inquiry .fax .caption span {
+  border-bottom: 3px solid #d97d00;
+}
+#inquiry .number span:last-of-type {
+  color: #d47c00;
 }

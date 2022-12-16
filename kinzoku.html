@@ -2,10 +2,6 @@
 <html lang="ja">
   <head prefix="og: https://ogp.me/ns#">
     <meta name="robots" content="noindex,nofollow" />
-    <!--
-      metaタグ
-      https://emma.tools/magazine/meta-tags-for-seo/
-     -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -41,6 +37,7 @@
       crossorigin="anonymous"
     />
     <link href="./resources/css/common.css" rel="stylesheet" />
+    <link href="./resources/css/css-expansion.css" rel="stylesheet" />
     <link href="./resources/css/kinzoku.css" rel="stylesheet" />
 
     <title>玉名金属株式会社 - 溶融亜鉛加工めっき</title>
@@ -69,8 +66,8 @@
               <a class="nav-link" href="#product">製品紹介</a>
               <a class="nav-link" href="#workingline">作業工程</a>
               <a class="nav-link" href="#planting">めっきの特徴</a>
-              <a class="nav-link" href="#inquiry">お問合せ</a>
               <a class="nav-link" href="#overview">会社概要</a>
+              <a class="nav-link" href="#inquiry">お問合せ</a>
               <a class="nav-link" href="../">チクラグループ</a>
             </div>
           </div>
@@ -91,16 +88,19 @@
         </div>
       </div>
 
-      <section id="product" class="allwide pb-5">
-        <div class="row wid-adj">
-          <h3 class="subheading">
-            <p>製品紹介</p>
-            <p class="fw-light">PRODUCT INTRODUCTION</p>
-          </h3>
-          <p class="fs-09">
-            高度な技術と信頼を基盤として、鉄のさまざまな可能性に挑戦します。
-          </p>
-          <div class="flbx-item col-lg-4">
+      <section id="product" class="my-pt-5 my-pb-4">
+        <h3 class="subheading">
+          <p>製品紹介</p>
+          <p class="fw-normal"><span>PRODUCT INTRODUCTION</span></p>
+        </h3>
+        <p class="fs-09">
+          高度な技術と信頼を基盤として、<br
+            class="disp-only-sp"
+          />鉄のさまざまな可能性に挑戦します。
+        </p>
+
+        <div class="d-flex justify-content-center flex-wrap wid-adj">
+          <div class="flbx-item w-40 mx-3">
             <img
               class="w-100"
               alt="めっき製品"
@@ -109,7 +109,7 @@
             />
             <p class="caption fw-bold">めっき製品</p>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               class="w-100"
               alt="めっき製品"
@@ -118,7 +118,7 @@
             />
             <p class="caption fw-bold">めっき製品</p>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               class="w-100"
               alt="めっき製品"
@@ -130,17 +130,21 @@
         </div>
       </section>
 
-      <section id="workingline" class="allwide pt-4 pb-5 bg-color-section">
-        <div class="row wid-adj">
-          <h3 class="subheading">
-            <p>作業工程</p>
-            <p class="fw-light">WORKING LINE</p>
-          </h3>
-          <div class="fs-09 fw-bold text-center mb-4">
-            安全性と効率性に配慮しためっき作業工程。<br />
-            品質管理にも細心の注意が払われています。
-          </div>
-          <div class="flbx-item col-lg-6">
+      <section
+        id="workingline"
+        class="allwide my-pt-4 my-pb-6 bg-color-section"
+      >
+        <h3 class="subheading">
+          <p>作業工程</p>
+          <p class="fw-normal"><span>WORKING LINE</span></p>
+        </h3>
+        <div class="fs-09 fw-bold text-center mb-4">
+          安全性と効率性に配慮しためっき作業工程。<br />
+          品質管理にも細心の注意が払われています。
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap wid-adj">
+          <div class="flbx-item mx-3">
             <img
               alt="前処理工程"
               src="./resources/images/kinzoku/workingline_01_01.jpg"
@@ -170,9 +174,9 @@
             />
             <p class="caption fw-bold">仕上検査工程</p>
           </div>
-          <hr class="disp-only-sp" />
+          <hr class="disp-only-sp" color="#000" size="10" />
 
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item mx-3">
             <img
               alt="前処理工程"
               src="./resources/images/kinzoku/workingline_02_01.jpg"
@@ -203,8 +207,10 @@
             <p class="caption fw-bold">仕上検査工程</p>
           </div>
           <br />
+        </div>
 
-          <h4 class="mt-5">めっきの作業方法</h4>
+        <div class="wid-adj max-w-800">
+          <h4 class="mt-5"><span>めっきの作業方法</span></h4>
           <dl class="dlToTable w-100 centering">
             <dt>脱脂</dt>
             <dd>苛性ソーダ水溶液で油脂類を除きます。</dd>
@@ -226,16 +232,20 @@
         </div>
       </section>
 
-      <section id="planting" class="allwide mb-5">
+      <section id="planting" class="my-pt-5 my-pb-5">
         <div class="wid-adj">
           <h3 class="subheading">
             <p>めっきの特徴</p>
-            <p class="fw-light">ABOUT PLANTING</p>
+            <p class="fw-normal"><span>ABOUT PLANTING</span></p>
           </h3>
           <h4>溶融亜鉛めっきの特徴と効果</h4>
           <div class="fs-09 text-center">
-            産業界に広く使われている鉄を「錆」から守るためにいろんな防食法が研究されております。<br />
-            その中で溶融亜鉛めっきの優れた防食性が認められ、あらゆる分野で適用されております。
+            産業界に広く使われている鉄を「錆」から守るために<br
+              class="disp-only-sp"
+            />いろんな防食法が研究されております。<br />
+            その中で溶融亜鉛めっきの優れた防食性が認められ、<br
+              class="disp-only-sp"
+            />あらゆる分野で適用されております。
           </div>
           <div class="text-center mt-4 wid-adj">
             <img
@@ -246,8 +256,8 @@
             />
           </div>
 
-          <h4>めっきの特徴</h4>
-          <dl class="dlToTable w-100 centering">
+          <h4><span>めっきの特徴</span></h4>
+          <dl class="dlToTable w-100 max-w-800 centering">
             <dt>耐食性</dt>
             <dd>
               溶融亜鉛と鉄との反応により合金層と亜鉛層を形成しためっき皮膜により長期間の防錆効果を発揮します。
@@ -268,34 +278,11 @@
         </div>
       </section>
 
-      <section id="inquiry" class="allwide pt-5 pb-5 bg-color-section">
-        <div class="wid-adj text-center">
-          <h3 class="subheading">
-            <p>お問合せ</p>
-            <p class="fw-light">INQUIRY</p>
-          </h3>
-          <div class="summary fw-bold fs-09">
-            お問い合わせは、お電話・FAXにて受け付けております。<br />
-            お気軽にお問い合わせください。
-          </div>
-          <div class="tel fw-bold">
-            <p class="caption">お電話でのお問い合わせ</p>
-            <p class="number">TEL : 0968-78-6221</p>
-            <p class="memo">受付時間 9:00 〜 17:00</p>
-          </div>
-          <div class="tel fw-bold">
-            <p class="caption">FAXでのお問い合わせ</p>
-            <p class="number">FAX : 0968-78-3233</p>
-            <p class="memo">随時お受けいたします</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="overview" class="allwide">
+      <section id="overview" class="allwide my-pt-5 my-pb-5 bg-color-section">
         <div class="wid-adj mb-5">
           <h3 class="subheading">
-            <p>会社概要</p>
-            <p class="fw-light">COMPANY OVERVIEW</p>
+            <p><span>会社概要</span></p>
+            <p class="fw-normal"><span>COMPANY OVERVIEW</span></p>
           </h3>
           <div class="overview-img">
             <img
@@ -305,7 +292,7 @@
             />
           </div>
 
-          <h4>会社概要</h4>
+          <h4><span>会社概要</span></h4>
           <dl class="dlToTable dl-flw-70">
             <dt>代表取締役 社長</dt>
             <dd>千蔵　和宜</dd>
@@ -336,7 +323,7 @@
             </dd>
           </dl>
 
-          <h4>沿革</h4>
+          <h4><span>沿革</span></h4>
           <dl class="dlToTable dl-flw-70">
             <dt>昭和55年7月</dt>
             <dd>
@@ -360,7 +347,7 @@
             <dd>JIS認証取得</dd>
           </dl>
 
-          <h4>MAP</h4>
+          <h4><span>MAP</span></h4>
           <div class="map text-center">
             <img
               alt="玉名金属株式会社アクセスマップ"
@@ -376,10 +363,36 @@
               referrerpolicy="no-referrer-when-downgrade"
             >
             </iframe>
-            <div class="address pt-3 fw-bold text-end">
+            <div class="address pt-3 fw-bold text-start mx-auto">
               〒865-0012<br />
               熊本県玉名市山部田213番地<br />
               玉名金属株式会社
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="inquiry" class="allwide">
+        <div class="wid-adj text-center">
+          <h3 class="subheading">
+            <p>お問合せ</p>
+            <p class="fw-normal"><span>INQUIRY</span></p>
+          </h3>
+          <div class="summary fw-bold fs-09">
+            お問い合わせは、お電話・FAXにて受け付けております。<br />
+            お気軽にお問い合わせください。
+          </div>
+
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="tel fw-bold py-4">
+              <p class="caption"><span>お電話でのお問い合わせ</span></p>
+              <p class="number"><span>TEL</span><span>0968-78-6221</span></p>
+              <p class="memo">受付時間 9:00 〜 17:00</p>
+            </div>
+            <div class="fax fw-bold py-4">
+              <p class="caption"><span>FAXでのお問い合わせ</span></p>
+              <p class="number"><span>FAX</span><span>0968-78-3233</span></p>
+              <p class="memo">随時お受けいたします</p>
             </div>
           </div>
         </div>

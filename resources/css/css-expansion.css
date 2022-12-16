@@ -1,0 +1,97 @@
+.fs-06 {
+    font-size: 0.6rem;
+  }
+  .fs-07 {
+    font-size: 0.7rem;
+  }
+  .fs-08 {
+    font-size: 0.8rem;
+  }
+  .fs-09 {
+    font-size: 0.9rem;
+  }
+  
+  .w-90 {
+    width: 90%;
+  }
+  .w-40 {
+    width: 40%;
+  }
+  .w-30 {
+    width: 30%;
+  }
+  .w-20 {
+    width: 20%;
+  }
+  .w-18 {
+    width: 18%;
+  }
+  
+  .max-w-800 {
+    max-width: 800px;
+  }
+  .max-w-700 {
+    max-width: 700px;
+  }
+  .max-w-600 {
+    max-width: 600px;
+  }
+  .max-w-500 {
+    max-width: 500px;
+  }
+  
+  .max-w-360 {
+    max-width: 360px;
+  }
+  
+  .my-mt-5 {
+    margin-top: 3rem;
+  }
+  .my-pt-4 {
+    padding-top: 1.5rem;
+  }
+  .my-pt-5 {
+    padding-top: 3rem;
+  }
+  .my-mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  .my-pb-4 {
+    padding-bottom: 1.5rem;
+  }
+  .my-pb-5 {
+    padding-bottom: 3rem;
+  }
+  .my-pb-6 {
+    padding-bottom: 4rem;
+  }
+  @media only screen and (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav {
+      justify-content: space-evenly;
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 992px) {
+    .my-mt-5 {
+      margin-top: 1rem;
+    }
+    .my-pt-4 {
+      padding-top: 0.8rem;
+    }
+    .my-pt-5 {
+      padding-top: 1rem;
+    }
+    .my-mb-4 {
+      margin-bottom: 0.8rem;
+    }
+    .my-pb-4 {
+      padding-bottom: 0.8rem;
+    }
+    .my-pb-5 {
+      padding-bottom: 1rem;
+    }
+    .my-pb-6 {
+      padding-bottom: 3rem;
+    }
+  }
+  

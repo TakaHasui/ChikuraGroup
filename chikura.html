@@ -2,10 +2,6 @@
 <html lang="ja">
   <head prefix="og: https://ogp.me/ns#">
     <meta name="robots" content="noindex,nofollow" />
-    <!--
-      metaタグ
-      https://emma.tools/magazine/meta-tags-for-seo/
-     -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -38,6 +34,7 @@
       crossorigin="anonymous"
     />
     <link href="./resources/css/common.css" rel="stylesheet" />
+    <link href="./resources/css/css-expansion.css" rel="stylesheet" />
     <link href="./resources/css/chikura.css" rel="stylesheet" />
 
     <title>株式会社チクラ工業 - 鋼構造物加工</title>
@@ -86,24 +83,29 @@
         </div>
       </div>
 
-      <section id="product" class="allwide pb-5">
-        <div class="row wid-adj">
-          <h3 class="subheading">
-            <p>製品紹介</p>
-            <p class="fw-light">PRODUCT INTRODUCTION</p>
-          </h3>
-          <p>
-            高度な技術と信頼を基盤として、鉄のさまざまな可能性に挑戦します。
-          </p>
-          <div class="flbx-item col-lg-12">
-            <img
-              alt="焼却炉用丸形熱交換器"
-              src="./resources/images/chikura/product_01.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">焼却炉用丸形熱交換器</p>
-          </div>
-          <div class="flbx-item col-lg-4">
+      <section id="product" class="my-pt-5 my-pb-4">
+        <h3 class="subheading">
+          <p>製品紹介</p>
+          <p class="fw-normal">PRODUCT INTRODUCTION</p>
+        </h3>
+
+        <p>
+          高度な技術と信頼を基盤として、<br class="disp-only-sp" />
+          鉄のさまざまな可能性に挑戦します。
+        </p>
+
+        <div class="w-100 max-w-600 mb-5 mx-auto text-center">
+          <img
+            class="w-90 max-w-600"
+            alt="焼却炉用丸形熱交換器"
+            src="./resources/images/chikura/product_01.jpg"
+            loading="lazy"
+          />
+          <p class="caption fw-bold">焼却炉用丸形熱交換器</p>
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap wid-adj">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="製鐵所向サイクロンクーラー発送風景"
               src="./resources/images/chikura/product_02.jpg"
@@ -111,7 +113,7 @@
             />
             <p class="caption fw-bold">製鐵所向サイクロンクーラー発送風景</p>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="発電所向ダクト発送風景"
               src="./resources/images/chikura/product_03.jpg"
@@ -119,31 +121,7 @@
             />
             <p class="caption fw-bold">発電所向ダクト発送風景</p>
           </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="発電所向ダクト仮組風景"
-              src="./resources/images/chikura/product_04.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">発電所向ダクト仮組風景</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="熱交換器"
-              src="./resources/images/chikura/product_05.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">熱交換器</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="産業廃棄物用焼却炉"
-              src="./resources/images/chikura/product_06.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">産業廃棄物用焼却炉</p>
-          </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="ガスタービン排気ダクトスプリッター"
               src="./resources/images/chikura/product_07.jpg"
@@ -151,7 +129,7 @@
             />
             <p class="caption fw-bold">ガスタービン排気ダクトスプリッター</p>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="燃料タンク"
               src="./resources/images/chikura/product_08.jpg"
@@ -159,7 +137,7 @@
             />
             <p class="caption fw-bold">燃料タンク</p>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="焼却炉用角型熱交換器"
               src="./resources/images/chikura/product_09.jpg"
@@ -167,7 +145,7 @@
             />
             <p class="caption fw-bold">焼却炉用角型熱交換器</p>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="発電所向エキスパンションジョイント"
               src="./resources/images/chikura/product_10.jpg"
@@ -176,52 +154,81 @@
             <p class="caption fw-bold">発電所向エキスパンションジョイント</p>
           </div>
         </div>
-      </section>
-
-      <section id="equipment" class="allwide pt-4 pb-5 bg-color-section">
-        <div class="row wid-adj">
-          <h3 class="subheading">
-            <p>設備概要</p>
-            <p class="fw-light">OUTLINE OF EQUIPMENT</p>
-          </h3>
-          <p>高度な設備と確かな技術から信頼性の高い製品が生まれます。</p>
-
-          <div class="flbx-item">
+        <div class="d-flex justify-content-center flex-wrap wid-adj">
+          <div class="flbx-item w-20 mx-3">
             <img
-              alt="フレームプレーナー（4.5m✕20m）"
-              loading="lazy"
-              src="./resources/images/chikura/equip_01.jpg"
+              alt="発電所向ダクト仮組風景"
+              src="./resources/images/chikura/product_04.jpg"
               loading="lazy"
             />
-            <p class="caption fw-bold">フレームプレーナー（4.5m✕20m）</p>
+            <p class="caption fw-bold">発電所向ダクト仮組風景</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-20 mx-3">
+            <img
+              alt="熱交換器"
+              src="./resources/images/chikura/product_05.jpg"
+              loading="lazy"
+            />
+            <p class="caption fw-bold">熱交換器</p>
+          </div>
+          <div class="flbx-item w-20 mx-3">
+            <img
+              alt="産業廃棄物用焼却炉"
+              src="./resources/images/chikura/product_06.jpg"
+              loading="lazy"
+            />
+            <p class="caption fw-bold">産業廃棄物用焼却炉</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="equipment" class="my-pt-5 my-pb-4 bg-color-section allwide">
+        <h3 class="subheading">
+          <p>設備概要</p>
+          <p class="fw-normal">OUTLINE OF EQUIPMENT</p>
+        </h3>
+        <p>
+          高度な設備と確かな技術から<br
+            class="disp-only-sp"
+          />信頼性の高い製品が生まれます。
+        </p>
+
+        <div class="w-100 max-w-600 mb-5 mx-auto text-center">
+          <img
+            class="w-90 max-w-600"
+            alt="フレームプレーナー（4.5m✕20m）"
+            loading="lazy"
+            src="./resources/images/chikura/equip_01.jpg"
+          />
+          <p class="caption fw-bold">フレームプレーナー（4.5m✕20m）</p>
+        </div>
+
+        <div class="d-flex justify-content-center flex-wrap wid-adj">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="工場内全景（25m✕114m）"
               loading="lazy"
               src="./resources/images/chikura/equip_02.jpg"
-              loading="lazy"
             />
             <p class="caption fw-bold">工場内全景（25m✕114m）</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-40 mx-3">
             <img
               alt="屋外作業場（15m✕114m）"
               loading="lazy"
               src="./resources/images/chikura/equip_03.jpg"
-              loading="lazy"
             />
             <p class="caption fw-bold">屋外作業場（15m✕114m）</p>
           </div>
         </div>
       </section>
 
-      <section id="overview" class="allwide">
+      <section id="overview" class="my-pt-5 my-pb-4 allwide">
+        <h3 class="subheading">
+          <p>会社概要</p>
+          <p class="fw-normal">COMPANY OVERVIEW</p>
+        </h3>
         <div class="wid-adj mb-5">
-          <h3 class="subheading">
-            <p>会社概要</p>
-            <p class="fw-light">COMPANY OVERVIEW</p>
-          </h3>
           <div class="overview-img">
             <img
               src="./resources/images/chikura/overview_01.jpg"
@@ -230,7 +237,7 @@
             />
           </div>
 
-          <h4>会社概要</h4>
+          <h4><span>会社概要</span></h4>
           <dl class="dlToTable dl-flw-70">
             <dt>代表取締役 社長</dt>
             <dd>千蔵 康誠</dd>
@@ -259,21 +266,17 @@
             </dd>
           </dl>
 
-          <h4>沿革</h4>
+          <h4><span>沿革</span></h4>
           <dl class="dlToTable dl-flw-70">
             <dt>昭和6年6月</dt>
             <dd>個人企業千蔵鉄工所として玉名市亀甲259番地にて創業</dd>
-            <dt>
-              昭和41年12月
-            </dt>
+            <dt>昭和41年12月</dt>
             <dd>
               <p>有限会社千蔵鉄工所へ組織変更</p>
               <p>資本金100万円</p>
             </dd>
             <dt>昭和44年8月</dt>
-            <dd>
-              本社を玉名市亀甲263-3へ移転
-            </dd>
+            <dd>本社を玉名市亀甲263-3へ移転</dd>
             <dt>昭和46年5月</dt>
             <dd>資本金500万円に増資</dd>
             <dt>昭和50年2月</dt>
@@ -291,7 +294,7 @@
             <dd>資本金2,000万円に増資</dd>
           </dl>
 
-          <h4>MAP</h4>
+          <h4><span>MAP</span></h4>
           <div class="map text-center">
             <img
               class=""
@@ -308,7 +311,7 @@
               referrerpolicy="no-referrer-when-downgrade"
             >
             </iframe>
-            <div class="address pt-3 fw-bold text-end">
+            <div class="address pt-3 fw-bold text-start mx-auto">
               〒869-0111<br />
               熊本県玉名郡長洲町名石浜 35-4<br />
               株式会社チクラ工業
@@ -317,25 +320,27 @@
         </div>
       </section>
 
-      <section id="inquiry" class="allwide pt-5 pb-5 bg-color-section">
+      <section id="inquiry" class="allwide my-pt-5 my-pb-4 bg-color-section">
         <div class="wid-adj">
           <h3 class="subheading">
             <p>お問合せ</p>
-            <p class="fw-light">INQUIRY</p>
+            <p class="fw-normal">INQUIRY</p>
           </h3>
           <div class="summary fw-bold">
             お問い合わせは、お電話・FAXにて受け付けております。<br />
             お気軽にお問い合わせください。
           </div>
-          <div class="tel fw-bold">
-            <p class="caption">お電話でのお問い合わせ</p>
-            <p class="number">TEL : 0968-78-6221</p>
-            <p class="memo">受付時間 9:00 〜 17:00</p>
-          </div>
-          <div class="tel fw-bold">
-            <p class="caption">FAXでのお問い合わせ</p>
-            <p class="number">FAX : 0968-78-3233</p>
-            <p class="memo">随時お受けいたします</p>
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="tel fw-bold py-4">
+              <p class="caption"><span>お電話でのお問い合わせ</span></p>
+              <p class="number"><span>TEL</span><span>0968-78-6221</span></p>
+              <p class="memo">受付時間 9:00 〜 17:00</p>
+            </div>
+            <div class="fax fw-bold py-4">
+              <p class="caption"><span>FAXでのお問い合わせ</span></p>
+              <p class="number"><span>FAX</span><span>0968-78-3233</span></p>
+              <p class="memo">随時お受けいたします</p>
+            </div>
           </div>
         </div>
       </section>

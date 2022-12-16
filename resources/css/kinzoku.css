@@ -3,10 +3,17 @@
 }
 
 .bg-color-section {
-  background-color: #f4cf90;
+  background-color: #ffedce;
 }
 .bg-color-footer {
   background-color: #c17a02;
+}
+
+#workingline .flbx-item {
+  width: 100%;
+}
+#workingline .flbx-item img {
+  width: 100%;
 }
 
 #workingline dd,
@@ -17,4 +24,30 @@
 
 .centering dt {
   text-align: center;
+}
+
+dl.dlToTable dt:first-of-type,
+dl.dlToTable dd:first-of-type {
+  border-top: 1px solid #ccc;
+}
+
+#inquiry .tel,
+#inquiry .fax {
+  color: #000;
+  background-color: #ffedce;
+}
+h3.subheading {
+  border: none;
+}
+h3.subheading p:last-of-type span {
+  border-bottom: 5px solid #333;
+}
+
+h4 span,
+#inquiry .tel .caption span,
+#inquiry .fax .caption span {
+  border-bottom: 3px solid #d87d14;
+}
+#inquiry .number span:last-of-type {
+  color: #d87d14;
 }

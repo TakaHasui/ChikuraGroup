@@ -2,10 +2,6 @@
 <html lang="ja">
   <head prefix="og: https://ogp.me/ns#">
     <meta name="robots" content="noindex,nofollow" />
-    <!--
-      metaタグ
-      https://emma.tools/magazine/meta-tags-for-seo/
-     -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
@@ -41,6 +37,7 @@
       crossorigin="anonymous"
     />
     <link href="./resources/css/common.css" rel="stylesheet" />
+    <link href="./resources/css/css-expansion.css" rel="stylesheet" />
     <link href="./resources/css/kouki.css" rel="stylesheet" />
 
     <title>熊本鋼機株式会社 - 鉄鋼の冷間曲加工会社</title>
@@ -65,8 +62,8 @@
             <div class="navbar-nav">
               <a class="nav-link" href="#product">製品紹介</a>
               <a class="nav-link" href="#equipment">設備概要</a>
-              <a class="nav-link" href="#inquiry">お問合せ</a>
               <a class="nav-link" href="#overview">会社概要</a>
+              <a class="nav-link" href="#inquiry">お問合せ</a>
               <a class="nav-link" href="../">チクラグループ</a>
             </div>
           </div>
@@ -86,155 +83,168 @@
         </div>
       </div>
 
-      <section class="mt-5">
-        <div id="item-list" class="wid-adj">
-          <h4>プレート曲 営業品目</h4>
-          <ul>
-            <li>円筒曲</li>
-            <li>プレス円筒曲（180°加工）</li>
-            <li>角丸レジューサー</li>
-            <li>コニカル（円錐）</li>
-            <li>ササラ板曲</li>
-            <li>偏芯レジューサー他各種プレート加工品</li>
-            <li>Ｕ曲トラフ</li>
-            <li>プレス板金加工（PL25まで折曲可）</li>
-            <li>その他、溶接等ご相談に応じます。</li>
-          </ul>
-          <h4 class="mt-4">営業品目</h4>
-          <ul>
-            <li>各種形鋼曲加工</li>
-            <li>鋼板各種形状曲加工</li>
-            <li>アルミ型材曲加工</li>
-            <li>各種金属材曲加工</li>
-            <li>CT製作・矯正</li>
-            <li>アングル・Ｈ鋼歯落し・矯正</li>
-          </ul>
+      <section id="item-list" class="mt-5">
+        <div class="d-flex flex-wrap flex-justify wid-adj">
+          <div>
+            <h4><span>プレート曲 営業品目</span></h4>
+            <ul>
+              <li>円筒曲</li>
+              <li>プレス円筒曲（180°加工）</li>
+              <li>角丸レジューサー</li>
+              <li>コニカル（円錐）</li>
+              <li>ササラ板曲</li>
+              <li>偏芯レジューサー他各種プレート加工品</li>
+              <li>Ｕ曲トラフ</li>
+              <li>プレス板金加工（PL25まで折曲可）</li>
+              <li>その他、溶接等ご相談に応じます。</li>
+            </ul>
+          </div>
+          <div>
+            <h4><span>営業品目</span></h4>
+            <ul>
+              <li>各種形鋼曲加工</li>
+              <li>鋼板各種形状曲加工</li>
+              <li>アルミ型材曲加工</li>
+              <li>各種金属材曲加工</li>
+              <li>CT製作・矯正</li>
+              <li>アングル・Ｈ鋼歯落し・矯正</li>
+            </ul>
+          </div>
         </div>
       </section>
 
-      <section id="product" class="allwide pt-4 pb-5 bg-color-section">
-        <div class="row wid-adj">
+      <section id="product" class="allwide my-pt-4 my-pb-5 bg-color-section">
+        <div class="wid-adj">
           <h3 class="subheading">
             <p>製品紹介</p>
-            <p class="fw-light">PRODUCT INTRODUCTION</p>
+            <p class="fw-normal">PRODUCT INTRODUCTION</p>
           </h3>
           <p>
-            加工設備の能力を最大限に引き出す技術者の腕がひとつひとつの製品に生かされています。
+            加工設備の能力を最大限に引き出す技術者の腕が<br
+              class="disp-only-sp"
+            />ひとつひとつの製品に生かされています。
           </p>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="ラセン手摺曲"
-              src="./resources/images/kouki/product_01.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">ラセン手摺曲</p>
+
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="ラセン手摺曲"
+                src="./resources/images/kouki/product_01.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">ラセン手摺曲</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="IビームS字曲"
+                src="./resources/images/kouki/product_02.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">IビームS字曲</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="コニカルサーキットシェル"
+                src="./resources/images/kouki/product_03.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">コニカルサーキットシェル</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="偏芯角丸レジューサー"
+                src="./resources/images/kouki/product_04.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">偏芯角丸レジューサー</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="角丸レジューサー"
+                src="./resources/images/kouki/product_05.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">角丸レジューサー</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="U曲トラフ"
+                src="./resources/images/kouki/product_06.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">U曲トラフ</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="U曲トラフ"
+                src="./resources/images/kouki/product_07.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">U曲トラフ</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="ステンレス型材曲"
+                src="./resources/images/kouki/product_08.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">ステンレス型材曲</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="アルミ角パイプ曲げ"
+                src="./resources/images/kouki/product_09.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">アルミ角パイプ曲げ</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="ステンレスパイプコイル巻"
+                src="./resources/images/kouki/product_10.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">ステンレスパイプコイル巻</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="フラットバーのネジリ"
+                src="./resources/images/kouki/product_11.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">フラットバーのネジリ</p>
+            </div>
+            <div class="flbx-item w-40 mx-3">
+              <img
+                alt="C形鋼のネジリ"
+                src="./resources/images/kouki/product_12.jpg"
+                loading="lazy"
+              />
+              <p class="caption fw-bold">C形鋼のネジリ</p>
+            </div>
           </div>
-          <div class="flbx-item col-lg-4">
+          <div class="text-center">
             <img
-              alt="IビームS字曲"
-              src="./resources/images/kouki/product_02.jpg"
+              alt="プレートロールでの360° 円筒曲 能力表"
+              class="w-100 max-w-700"
               loading="lazy"
+              src="./resources/images/kouki/graph_01.gif"
             />
-            <p class="caption fw-bold">IビームS字曲</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="コニカルサーキットシェル"
-              src="./resources/images/kouki/product_03.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">コニカルサーキットシェル</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="偏芯角丸レジューサー"
-              src="./resources/images/kouki/product_04.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">偏芯角丸レジューサー</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="角丸レジューサー"
-              src="./resources/images/kouki/product_05.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">角丸レジューサー</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="U曲トラフ"
-              src="./resources/images/kouki/product_06.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">U曲トラフ</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="U曲トラフ"
-              src="./resources/images/kouki/product_07.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">U曲トラフ</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="ステンレス型材曲"
-              src="./resources/images/kouki/product_08.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">ステンレス型材曲</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="アルミ角パイプ曲げ"
-              src="./resources/images/kouki/product_09.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">アルミ角パイプ曲げ</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="ステンレスパイプコイル巻"
-              src="./resources/images/kouki/product_10.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">ステンレスパイプコイル巻</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="フラットバーのネジリ"
-              src="./resources/images/kouki/product_11.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">フラットバーのネジリ</p>
-          </div>
-          <div class="flbx-item col-lg-4">
-            <img
-              alt="C形鋼のネジリ"
-              src="./resources/images/kouki/product_12.jpg"
-              loading="lazy"
-            />
-            <p class="caption fw-bold">C形鋼のネジリ</p>
-          </div>
-          <div class="mt-4">
-            <img alt="プレートロールでの360° 円筒曲 能力表" class="w-100"
-            loading="lazy" src="./resources/images/kouki/graph_01.gif"
           </div>
         </div>
       </section>
 
-      <section id="equipment" class="allwide pt-4 pb-5">
-        <div class="row wid-adj">
-          <h3 class="subheading">
-            <p>設備概要</p>
-            <p class="fw-light">OUTLINE OF EQUIPMENT</p>
-          </h3>
-          <p>
-            最高級の設備と高度な技術を駆使し、あらゆるニーズにお応えします。
-          </p>
+      <section id="equipment" class="my-pt-5 my-pb-5">
+        <h3 class="subheading">
+          <p>設備概要</p>
+          <p class="fw-normal">OUTLINE OF EQUIPMENT</p>
+        </h3>
+        <p>
+          最高級の設備と高度な技術を駆使し、<br class="class="disp-only-sp">あらゆるニーズにお応えします。
+        </p>
 
-          <div class="flbx-item col-lg-6">
+        <div class="d-flex justify-content-center flex-wrap wid-adj">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="工場内部"
               src="./resources/images/kouki/equip_01.jpg"
@@ -242,7 +252,7 @@
             />
             <p class="caption fw-bold">工場内部</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="工場内部"
               src="./resources/images/kouki/equip_02.jpg"
@@ -250,7 +260,7 @@
             />
             <p class="caption fw-bold">工場内部</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="大型機TLH-900P"
               src="./resources/images/kouki/equip_03.jpg"
@@ -258,7 +268,7 @@
             />
             <p class="caption fw-bold">大型機TLH-900P</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="大型機TLH-150MP"
               src="./resources/images/kouki/equip_04.jpg"
@@ -266,7 +276,7 @@
             />
             <p class="caption fw-bold">大型機TLH-150MP</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="中型機MAH-150-3D"
               src="./resources/images/kouki/equip_05.jpg"
@@ -274,7 +284,7 @@
             />
             <p class="caption fw-bold">中型機MAH-150-3D</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="中型機MAH-100"
               src="./resources/images/kouki/equip_06.jpg"
@@ -282,7 +292,7 @@
             />
             <p class="caption fw-bold">中型機MAH-100</p>
           </div>
-          <div class="flbx-item col-lg-6">
+          <div class="flbx-item w-30 mx-3">
             <img
               alt="RT500-04100"
               src="./resources/images/kouki/equip_07.jpg"
@@ -290,45 +300,23 @@
             />
             <p class="caption fw-bold">RT500-04100</p>
           </div>
-          <hr />
-          <div class="flbx-item col-lg-12">
-            <img
-              alt="型鋼曲能力表"
-              src="./resources/images/kouki/equip_table_01.gif"
-              loading="lazy"
-            />
-          </div>
+        </div>
+
+        <div class="text-center">
+          <img
+            class="w-100 max-w-600"
+            alt="型鋼曲能力表"
+            src="./resources/images/kouki/equip_table_01.gif"
+            loading="lazy"
+          />
         </div>
       </section>
 
-      <section id="inquiry" class="allwide pt-5 pb-5 bg-color-section">
-        <div class="wid-adj">
-          <h3 class="subheading">
-            <p>お問合せ</p>
-            <p class="fw-light">INQUIRY</p>
-          </h3>
-          <div class="summary fw-bold">
-            お問い合わせは、お電話・FAXにて受け付けております。<br />
-            お気軽にお問い合わせください。
-          </div>
-          <div class="tel fw-bold">
-            <p class="caption">お電話でのお問い合わせ</p>
-            <p class="number">TEL : 0968-78-3121</p>
-            <p class="memo">受付時間 8:00 〜 17:00</p>
-          </div>
-          <div class="tel fw-bold">
-            <p class="caption">FAXでのお問い合わせ</p>
-            <p class="number">FAX : 0968-78-8711</p>
-            <p class="memo">随時お受けいたします</p>
-          </div>
-        </div>
-      </section>
-
-      <section id="overview" class="allwide pb-5">
+      <section id="overview" class="allwide my-pt-4 pb-5 bg-color-section">
         <div class="wid-adj mb-5">
           <h3 class="subheading">
             <p>会社概要</p>
-            <p class="fw-light">COMPANY OVERVIEW</p>
+            <p class="fw-normal">COMPANY OVERVIEW</p>
           </h3>
           <div class="overview-img">
             <img
@@ -338,7 +326,7 @@
             />
           </div>
 
-          <h4>会社概要</h4>
+          <h4><span>会社概要</span></h4>
           <dl class="dlToTable dl-flw-70">
             <dt>代表取締役 社長</dt>
             <dd>千蔵　隆資</dd>
@@ -372,7 +360,7 @@
             </dd>
           </dl>
 
-          <h4>沿革</h4>
+          <h4><span>沿革</span></h4>
           <dl class="dlToTable dl-flw-70">
             <dt>昭和26年</dt>
             <dd>
@@ -399,7 +387,7 @@
             <dd>本社を熊本県長洲町に移転</dd>
           </dl>
 
-          <h4>MAP</h4>
+          <h4><span>MAP</span></h4>
           <div class="map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3349.6526524818255!2d130.46912451446312!3d32.90735078463713!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35404354a5691c85%3A0xcf16f82bf3c92ec7!2z54aK5pys6Yu85qmf77yI5qCq77yJ!5e0!3m2!1sja!2sjp!4v1670548438753!5m2!1sja!2sjp"
@@ -409,10 +397,35 @@
               loading="lazy"
               referrerpolicy="no-referrer-when-downgrade"
             ></iframe>
-            <div class="address pt-3 fw-bold text-end">
+            <div class="address pt-3 fw-bold text-start mx-auto">
               〒869-0111<br />
               熊本県玉名郡長洲町名石浜35-12<br />
               熊本鋼機株式会社
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="inquiry" class="allwide my-pt-5 my-pb-4">
+        <div class="wid-adj">
+          <h3 class="subheading">
+            <p>お問合せ</p>
+            <p class="fw-normal">INQUIRY</p>
+          </h3>
+          <div class="summary fw-bold">
+            お問い合わせは、お電話・FAXにて受け付けております。<br />
+            お気軽にお問い合わせください。
+          </div>
+          <div class="d-flex justify-content-center flex-wrap">
+            <div class="tel fw-bold py-4">
+              <p class="caption"><span>お電話でのお問い合わせ</span></p>
+              <p class="number"><span>TEL</span><span>0968-78-3121</span></p>
+              <p class="memo">受付時間 8:00 〜 17:00</p>
+            </div>
+            <div class="fax fw-bold py-4">
+              <p class="caption"><span>FAXでのお問い合わせ</span></p>
+              <p class="number"><span>FAX</span><span>0968-78-8711</span></p>
+              <p class="memo">随時お受けいたします</p>
             </div>
           </div>
         </div>

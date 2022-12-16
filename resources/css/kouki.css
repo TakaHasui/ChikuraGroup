@@ -3,19 +3,84 @@
 }
 
 .bg-color-section {
-  background-color: #8dceff;
+  background-color: #e4f3fe;
 }
 .bg-color-footer {
   background-color: #004986;
 }
 
-#item-list {
-  text-align: center;
+h4 span {
+  border-bottom: 3px solid #004986;
+}
+#item-list h4 {
+  text-align: left;
+}
+
+#item-list .flex-justify {
+  justify-content: center;
+}
+
+#item-list > div {
   line-height: 1.6em;
+  max-width: 576px;
+  width: 100%;
+}
+#item-list > div > div:first-of-type {
+  margin-right: 30px;
+  width: 300px;
+}
+#item-list > div div:last-of-type {
+  width: 240px;
 }
 #item-list li {
-  list-style-type: none;
+  list-style-type: square;
 }
-#item-list li::before {
-  content: "〇 ";
+
+dl.dlToTable {
+  background-color: #fff;
+  border-bottom: none;
+}
+dl.dlToTable dt {
+  color: #fff;
+  background-color: #0063b6;
+  /* background-color: #dedede; */
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #fff;
+}
+dl.dlToTable dt:first-of-type,
+dl.dlToTable dd:first-of-type {
+  border-top: 1px solid #ccc;
+}
+dl.dlToTable dt:last-of-type {
+  border-bottom: 1px solid #ccc;
+}
+dl.dlToTable dd {
+  background: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+#inquiry .tel,
+#inquiry .fax {
+  color: #222;
+  background-color: #e4f3fe;
+}
+#inquiry .tel .caption span,
+#inquiry .fax .caption span {
+  border-bottom: 3px solid #004986;
+}
+#inquiry .number span:last-of-type {
+  color: #004986;
+}
+
+@media only screen and (max-width: 576px) {
+  .bg-img-top {
+    background-position: left;
+  }
+  #item-list {
+    width: 90%;
+  }
+  #item-list .flex-justify {
+    justify-content: start;
+    margin-left: 50px;
+  }
 }
