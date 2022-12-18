@@ -9,7 +9,7 @@
   background-color: #4e4436;
 }
 
-h4 span {
+h3 span {
   border-bottom: 3px solid #d97d00;
 }
 
@@ -47,4 +47,9 @@ dl.dlToTable dd {
 }
 #inquiry .number span:last-of-type {
   color: #d47c00;
+}
+
+/* ページトップへ戻るボタン */
+#page_top {
+  background-color: #d97d00;
 }

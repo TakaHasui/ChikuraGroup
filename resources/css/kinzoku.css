@@ -1,3 +1,11 @@
+h2.subheading p:last-child {
+  color: #000;
+  font-size: 1em;
+  font-weight: 600;
+  margin-top: 8px;
+  letter-spacing: 0.07em;
+}
+
 .bg-img-top {
   background-image: url(../images/kinzoku/top.jpg);
 }
@@ -36,18 +44,23 @@ dl.dlToTable dd:first-of-type {
   color: #000;
   background-color: #ffedce;
 }
-h3.subheading {
+h2.subheading {
   border: none;
 }
-h3.subheading p:last-of-type span {
+h2.subheading p:last-of-type span {
   border-bottom: 5px solid #333;
 }
 
-h4 span,
+h3 span,
 #inquiry .tel .caption span,
 #inquiry .fax .caption span {
   border-bottom: 3px solid #d87d14;
 }
 #inquiry .number span:last-of-type {
   color: #d87d14;
+}
+
+/* ページトップへ戻るボタン */
+#page_top {
+  background-color: #dd4306;
 }

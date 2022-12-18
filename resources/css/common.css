@@ -38,7 +38,7 @@
   width: 75%;
 }
 
-h3.subheading {
+h2.subheading {
   border-top: 6px double #666;
   border-bottom: 6px double #666;
   display: block;
@@ -47,11 +47,11 @@ h3.subheading {
   text-align: center;
   width: 22em;
 }
-h3.subheading p {
+h2.subheading p {
   margin-bottom: 0;
   line-height: 1em;
 }
-h3.subheading p:last-child {
+h2.subheading p:last-child {
   color: #555;
   font-size: 0.6em;
   font-weight: 600;
@@ -59,16 +59,18 @@ h3.subheading p:last-child {
   letter-spacing: 0.07em;
 }
 @media only screen and (max-width: 992px) {
-  h3.subheading {
+  h2.subheading {
     width: 20em;
   }
 }
 @media only screen and (max-width: 768px) {
-  h3.subheading {
-    width: 16em;
+  h2.subheading {
+    width: 15em;
   }
 }
-h4 {
+h3 {
+  font-size: 1.6rem;
+  letter-spacing: 0.2rem;
   margin: 40px 0 20px;
   text-align: center;
 }
@@ -104,7 +106,7 @@ header nav h1 {
   font-size: 32px;
   text-shadow: 1px 2px 3px #222;
 }
-.img-top .pageTop h2 {
+.img-top .pageTop .catchcopy {
   font-size: 14px;
   text-shadow: 1px 2px 3px #222;
   line-height: 1.6em;
@@ -249,10 +251,10 @@ footer a {
     padding: 0;
   }
 
-  .img-top .pageTop h2 {
+  .img-top .pageTop .catchcopy {
     font-size: 13px;
   }
-  h4 {
+  h3 {
     margin-top: 40px;
   }
   section {
@@ -297,5 +299,58 @@ footer a {
 @media only screen and (max-width: 576px) {
   .map img {
     width: 90%;
+  }
+}
+
+/* ページトップへ戻るボタン */
+#page_top {
+  right: 20px;
+  bottom: 50px;
+  width: 60px;
+  height: 60px;
+  background: #111;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  opacity: 0;
+  z-index: 999;
+}
+
+/* Font Awesome */
+#page_top::before {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  content: "\f0d8"; /*アイコン*/
+  font-size: 32px;
+  color: rgb(255, 255, 255); /*アイコンの色*/
+  position: absolute;
+  width: 30px;
+  height: 60px;
+  top: 28px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+.fadeIn {
+  opacity: 0.8 !important;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  pointer-events: fill !important;
+}
+.fadeOut {
+  opacity: 0 !important;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+  pointer-events: none !important;
+}
+
+@media only screen and (max-width: 576px) {
+  #page_top {
+    width: 50px;
+    height: 50px;
+    right: 20px;
+    bottom: 50px;
   }
 }

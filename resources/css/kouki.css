@@ -9,10 +9,10 @@
   background-color: #004986;
 }
 
-h4 span {
+h3 span {
   border-bottom: 3px solid #004986;
 }
-#item-list h4 {
+#item-list h3 {
   text-align: left;
 }
 
@@ -83,4 +83,9 @@ dl.dlToTable dd {
     justify-content: start;
     margin-left: 50px;
   }
+}
+
+/* ページトップへ戻るボタン */
+#page_top {
+  background-color: #0072cf;
 }

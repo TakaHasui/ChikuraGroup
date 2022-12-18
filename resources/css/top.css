@@ -20,9 +20,12 @@
 }
 
 #philosophy h2 span {
-  border-bottom: 5px solid #aaa;
+  border-bottom: 5px solid #000;
 }
 
+#grouplink > div {
+  padding: 1.5rem 1.5rem 300px 1.5rem;
+}
 #grouplink .group-list a {
   color: #000;
   text-decoration: none;
@@ -59,3 +62,8 @@
   transition-duration: 0.5s;
 }
 /* / 画像エフェクト */
+
+/* ページトップへ戻るボタン */
+#page_top {
+  background-color: #a6a6a6;
+}
